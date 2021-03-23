@@ -1,0 +1,12 @@
+[
+ {
+   "repository"  : "kernel_asus_A001D",
+   "target_path" : "kernel/asus/A001D",
+   "branch"      : "lineage-18.1"
+ },
+ {
+   "repository"  : "vendor_asus_A001D",
+   "target_path" : "vendor/asus/A001D",
+   "branch"      : "lineage-18.1"
+ }
+]
