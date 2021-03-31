@@ -164,11 +164,6 @@ TARGET_TAP_TO_WAKE_NODE := "/proc/touchpanel/wakeup_gesture"
 # Qualcomm
 BOARD_USES_QCOM_HARDWARE := true
 
-# QCOM variant
-TARGET_QCOM_AUDIO_VARIANT := caf-msm8996
-TARGET_QCOM_DISPLAY_VARIANT := caf-msm8996
-TARGET_QCOM_MEDIA_VARIANT := caf-msm8996
-
 # RIL
 ENABLE_VENDOR_RIL_SERVICE := true
 
