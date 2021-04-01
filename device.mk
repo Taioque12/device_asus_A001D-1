@@ -131,7 +131,11 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/configs/audio/sound_trigger_mixer_paths_wcd9335.xml:$(TARGET_COPY_OUT_VENDOR)/etc/sound_trigger_mixer_paths_wcd9335.xml \
 	$(LOCAL_PATH)/configs/audio/sound_trigger_mixer_paths.xml:$(TARGET_COPY_OUT_VENDOR)/etc/sound_trigger_mixer_paths.xml \
 	$(LOCAL_PATH)/configs/audio/sound_trigger_platform_info.xml:$(TARGET_COPY_OUT_VENDOR)/etc/sound_trigger_platform_info.xml \
-	$(LOCAL_PATH)/configs/audio/etc/audio/audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/audio_policy_configuration.xml
+	$(LOCAL_PATH)/configs/audio/ftm_test_config:$(TARGET_COPY_OUT_VENDOR)/etc/ftm_test_config \
+	$(LOCAL_PATH)/configs/audio/ftm_test_config_msm8953-sku3-tasha-snd-card:$(TARGET_COPY_OUT_VENDOR)/etc/ftm_test_config_msm8953-sku3-tasha-snd-card \
+	$(LOCAL_PATH)/configs/audio/ftm_test_config_msm8953-sku4-snd-card:$(TARGET_COPY_OUT_VENDOR)/etc/ftm_test_config_msm8953-sku4-snd-card \
+	$(LOCAL_PATH)/configs/audio/ftm_test_config_mtp:$(TARGET_COPY_OUT_VENDOR)/etc/ftm_test_config_mtp \
+	$(LOCAL_PATH)/configs/audio/ftm_test_config_wcd9335:$(TARGET_COPY_OUT_VENDOR)/etc/ftm_test_config_wcd9335
 
 # Audio configuration source files
 PRODUCT_COPY_FILES += \
