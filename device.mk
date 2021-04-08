@@ -102,7 +102,7 @@ PRODUCT_PACKAGES += \
     libqcomvoiceprocessing \
     libqcompostprocbundle \
     libvolumelistener
-    
+
 # Audio configuration
 PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/configs/audio/audio_effects.conf:$(TARGET_COPY_OUT_VENDOR)/etc/audio_effects.conf \
@@ -152,7 +152,14 @@ PRODUCT_PACKAGES += \
 
 # Camera
 PRODUCT_PACKAGES += \
-    Snap
+    Snap \
+		camera.msm8953 \
+		libmm-qcamera \
+		android.hardware.camera.provider@2.4-impl \
+		android.hardware.camera.provider@2.4-service \
+		android.hardware.camera.provider@2.6 \
+		android.hardware.camera.device@3.6 \
+		vendor.qti.hardware.camera.device@1.0
 
 # Component overrides
 PRODUCT_COPY_FILES += \
@@ -424,7 +431,7 @@ PRODUCT_PACKAGES += \
     wificond \
     wpa_supplicant \
     wpa_supplicant.conf
-    
+
 # Wi-FI
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/wifi/p2p_supplicant_overlay.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/p2p_supplicant_overlay.conf \
