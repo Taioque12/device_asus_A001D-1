@@ -35,3 +35,11 @@ PRODUCT_BRAND := asus
 PRODUCT_MODEL := ASUS_A001D
 PRODUCT_MANUFACTURER := asus
 TARGET_VENDOR := asus
+
+PRODUCT_GMS_CLIENTID_BASE := android-asus
+
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    PRIVATE_BUILD_DESC="WW_Phone-user 9 PPR1 16.14.2006.305 release-keys"
+
+# Set BUILD_FINGERPRINT variable to be picked up by both system and vendor build.prop
+BUILD_FINGERPRINT := "asus/WW_Phone/ASUS_A001D_2:9/PPR1/16.14.2006.305-20200615:user/release-keys"
