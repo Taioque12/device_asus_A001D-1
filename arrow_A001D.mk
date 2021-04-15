@@ -25,11 +25,11 @@ $(call inherit-product, device/asus/A001D/device.mk)
 TARGET_GAPPS_ARCH := arm64
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_INCLUDE_WIFI_EXT := true
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/arrow/config/common.mk)
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := A001D
-PRODUCT_NAME := lineage_A001D
+PRODUCT_NAME := arrow_A001D
 BOARD_VENDOR := asus
 PRODUCT_BRAND := asus
 PRODUCT_MODEL := ASUS_A001D
